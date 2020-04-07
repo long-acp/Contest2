@@ -54,7 +54,7 @@ void primeSum(int total, int N, int S, int index)
 void allPrime(int N, int S, int P) 
 { 
 
-	for (int i = P+1; i <=S ; i++) 
+	for (int i = P; i <=S ; i++) 
 	{ 
 		if (isPrime(i)) 
 			prime.push_back(i); 
